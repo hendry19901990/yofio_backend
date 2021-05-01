@@ -31,3 +31,18 @@ cd tests
 go test
 ```
 
+Endpoints
+
+
+POST → ​ /credit-assignment
+
+```
+curl -X POST -d '{"investment": 1500}' http://localhost:9090/api/statistics
+```
+
+POST → ​ /statistics ​
+
+```
+curl -X POST -d '{}' http://localhost:9090/api/statistics
+```
+
